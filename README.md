@@ -58,8 +58,10 @@ chattr +i /www/server/panel/data/plugin.json
 
 # 宝塔linux工具箱优化脚本
 一键修改宝塔面板模板、去除强制登陆、一键修复面板、一键更换yum源、清除系统垃圾缓存、系统优化等
+```
 https://gitee.com/gacjie/btpanel_tools
 wget -O btpanel_tools.sh https://download.btpanel.cm/tools/btpanel_tools.sh && bash btpanel_tools.sh
+```
 
 #宝塔面板一键优化补丁 -彩虹
 1.去除宝塔面板强制绑定账号
@@ -69,8 +71,15 @@ wget -O btpanel_tools.sh https://download.btpanel.cm/tools/btpanel_tools.sh && b
 5.关闭活动推荐与在线客服
 6.去除自动校验文件与上报信息定时任务
 7.去除面板日志与网站绑定域名上报
-适用7.7版本：wget -O optimize.sh http://f.cccyun.cc/bt/optimize.sh && bash optimize.sh
-适用7.9版本：wget -O optimize.sh http://f.cccyun.cc/bt/optimize_new.sh && bash optimize.sh
+
+适用7.7版本：
+```
+wget -O optimize.sh http://f.cccyun.cc/bt/optimize.sh && bash optimize.sh
+```
+适用7.9版本：
+```
+wget -O optimize.sh http://f.cccyun.cc/bt/optimize_new.sh && bash optimize.sh
+```
 
 
 #宝塔面板7.7原版第三方存档
@@ -79,4 +88,6 @@ wget -O btpanel_tools.sh https://download.btpanel.cm/tools/btpanel_tools.sh && b
 升级(降级)到7.7命令： curl http://f.cccyun.cc/bt/update6.sh|bash
 
 <!--宝塔7.7原版一键开心脚本-->
+```
 curl -sSO https://raw.githubusercontent.com/ztkink/bthappy/main/one_key_happy.sh && bash one_key_happy.sh
+```
